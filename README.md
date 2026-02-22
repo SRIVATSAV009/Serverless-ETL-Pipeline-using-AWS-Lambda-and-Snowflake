@@ -40,10 +40,15 @@ EventBridge (Scheduler)
 ## 📂 Project Structure
 .
 ├── aws_glue_spark_transform.py
+
 ├── aws_step_function.json
+
 ├── lambda_extract.py
+
 ├── lambda_move_processed_files.py
+
 ├── snowflake_scripts.sql
+
 └── README.md
 
 
