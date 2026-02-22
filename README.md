@@ -38,7 +38,7 @@ EventBridge (Scheduler)
 ---
 
 ## 📂 Project Structure
-.
+
 ├── aws_glue_spark_transform.py
 
 ├── aws_step_function.json
@@ -63,7 +63,7 @@ EventBridge (Scheduler)
 - Stores raw JSON into:
   
 - s3://adzuna-etl-project/raw_data/to_process/
-- 
+  
 This acts as the **Raw (Bronze) Layer**.
 
 ---
