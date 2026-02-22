@@ -119,22 +119,6 @@ Snowpipe automatically ingests new Parquet files from S3 into Snowflake.
 Amazon EventBridge triggers the Step Function daily using a cron schedule.
 
 ---
-
-## 📊 Snowflake Table Schema
-
-```sql
-create or replace table adzuna_jobs_staging(
-    job_id string,
-    job_title string,
-    job_location string,
-    job_company string,
-    job_category string,
-    job_description string,
-    job_url string,
-    job_created timestamp,
-    etl_at timestamp
-);
-
 🔐 Security & IAM
 
 Least privilege IAM roles
@@ -203,3 +187,19 @@ This project demonstrates how to design and implement a modern, scalable, cloud-
 
 GitHub Repository:
 https://github.com/SRIVATSAV009/Serverless-ETL-Pipeline-using-AWS-Lambda-and-Snowflake
+## 📊 Snowflake Table Schema
+
+```sql
+create or replace table adzuna_jobs_staging(
+    job_id string,
+    job_title string,
+    job_location string,
+    job_company string,
+    job_category string,
+    job_description string,
+    job_url string,
+    job_created timestamp,
+    etl_at timestamp
+);
+
+
