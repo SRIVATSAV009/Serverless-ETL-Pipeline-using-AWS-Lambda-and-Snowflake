@@ -10,6 +10,8 @@ The architecture is event-driven, scalable, and production-ready.
 
 ## 🏗️ Architecture Overview
 
+<img width="1180" height="536" alt="Screenshot 2026-02-22 193439" src="https://github.com/user-attachments/assets/16752d57-b480-4c47-a72a-ac456255c544" />
+
 EventBridge (Scheduler)
 → AWS Step Functions (Orchestration)
 → Lambda (API Extraction)
